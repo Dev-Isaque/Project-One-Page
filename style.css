@@ -1,7 +1,7 @@
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 540px){
     body{
-        background-color: cornflowerblue;
+    
     }
 }
 
@@ -9,28 +9,62 @@
 /* Smartphonr Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){
     body{
-        background-color: #0ff;
+
     }
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px){
     body{
-        background-color: yellow;
+   
     }
 }
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
 @media (min-width: 992px){
     body{
-        background-color: #f60;
+    
     }
 }
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px){
     body{
-        background-color: red;
+ 
     }
 }
+
+
+/* Cabeçaho - Menu Topo */ 
+#menu-topo {
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+    list-style: none;
+}
+#menu-topo ul{
+    padding: 20px;
+    margin: 0px;
+    background-color: whitesmoke;
+    list-style: none;
+}
+
+#menu-topo img {
+    float: left;
+}
+
+#menu-topo ul li { display: inline; }
+
+#menu-topo ul li a {
+    padding: 3px 15px;
+    display: inline-block;
+
+    /* Visual do link */
+    background-color: dimgray;
+    color: aliceblue;
+    text-decoration: none;
+    border-bottom: 2px solid darkgrey;
+    float: right;
+}
+
 
