@@ -28,19 +28,45 @@
     box-sizing: border-box;
     font-family: "Times New Roman", Times, serif;
 }
+/*Animação de todos os comanados HTML*/
+html{
+    scroll-behavior: smooth;
+}
 
 /* Cabeçaho - Menu Topo */ 
 
 nav{
     width: 100%;
     position: fixed;
+    background: linear-gradient(rgba(0,0,0,7)
+    , transparent);/*Fazer um degrade*/
+    text-align: center;
 }
 nav ul li{
     display: inline-block;
 }
-
+/*fortação do lInk*/
 nav ul li a{
-    text-decoration: ;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    margin: 15px 10px;
+    color: floralwhite;
+    font-weight: 700;
+    text-transform: uppercase; /*fFICA TUDO MAIUSCULO*/
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;  /*Adicionando animações*/
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid whitesmoke;
+}
+
+h1#logotipo{
+    float: left;
+    margin: 10px;
+    width: 100px;
+    color: whitesmoke;
 }
 
 /*  Conteudo das Paginas */ 
@@ -48,4 +74,33 @@ nav ul li a{
 section{
     width: 100%;
     min-height: 100vh;
+    background-size: cover;/*Para ficar ocupando a tela toda*/
+
+    /*Ṕara podermos centralizar nosso conteudo*/
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+section div#conteudo1 div h1{
+    margin: 10px;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+/*Chamandos As sessões*/
+section:nth-of-type(1){
+    background-image: url(imagens/section1.jpg);
+}
+section:nth-of-type(2){
+    background-image: url(imagens/section2.jpg);
+}
+section:nth-of-type(3){
+    background-image: url(imagens/section3.jpg);
+}
+section:nth-of-type(4){
+    background-image: url(imagens/section4.jpg);
 }
