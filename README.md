@@ -18,6 +18,8 @@ https://icon-icons.com/pt/
 
 https://www.iconfinder.com/
 
+https://pixabay.com/pt/photos/search/
+
 
 ## Tipografia ##
 
