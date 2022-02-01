@@ -1,23 +1,14 @@
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 540px){
-    body{
-    
-    }
 }
 
 
 /* Smartphonr Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){
-    body{
-
-    }
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px){
-    body{
-   
-    }
 }
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
@@ -29,42 +20,32 @@
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px){
-    body{
- 
-    }
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
 
 /* Cabeçaho - Menu Topo */ 
-#menu-topo {
-    padding: 0px;
-    margin: 0px;
-    background-color: whitesmoke;
-    list-style: none;
-}
-#menu-topo ul{
-    padding: 20px;
-    margin: 0px;
-    background-color: whitesmoke;
-    list-style: none;
-}
 
-#menu-topo img {
-    float: left;
+nav{
+    width: 100%;
+    position: fixed;
 }
-
-#menu-topo ul li { display: inline; }
-
-#menu-topo ul li a {
-    padding: 3px 15px;
+nav ul li{
     display: inline-block;
-
-    /* Visual do link */
-    background-color: dimgray;
-    color: aliceblue;
-    text-decoration: none;
-    border-bottom: 2px solid darkgrey;
-    float: right;
 }
 
+nav ul li a{
+    text-decoration: ;
+}
 
+/*  Conteudo das Paginas */ 
+
+section{
+    width: 100%;
+    min-height: 100vh;
+}
