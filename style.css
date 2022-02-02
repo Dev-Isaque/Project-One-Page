@@ -31,6 +31,7 @@
 /*Animação de todos os comanados HTML*/
 html{
     scroll-behavior: smooth;
+    overflow: scroll;
 }
 
 /* Cabeçaho - Menu Topo */ 
@@ -78,10 +79,14 @@ section{
 
     /*Ṕara podermos centralizar nosso conteudo*/
     display: flex; 
-    justify-content: center;
-    align-items: center;
 }
  /*Texto da Section 1*/
+
+section#home{
+    align-items: center;
+    justify-content: center;
+}
+
 section div#conteudo1 div h1{
     margin: 10px;
     font-size: 120px;
@@ -97,20 +102,21 @@ section div#conteudo1 div p{
 }
 
  /*Texto da Section 2*/
- section div#conteudo2 div h1{
-    margin: 10px;
-    font-size: 120px;
-    color: rgb(8, 8, 8);
-    border-bottom: 2px solid whitesmoke;
-    height: 100vh;
-}
-section div#conteudo2 div p{
-    margin: 50px 0px 0px 0px;
-    font-size: 17px;
-    color: rgb(0, 0, 0);
-    text-align: left;
-    background-color: whitesmoke;
-}
+    section#sobre{
+        display: inline-block;
+    }
+
+    .container-2{
+        position: relative;
+    }
+
+    div.img-float-right, img{
+        float: right;
+    }
+
+    div.p-float-left{
+
+    }
 
 
 /*Chamandos As sessões*/
@@ -118,7 +124,7 @@ section:nth-of-type(1){
     background-image: url(imagens/section1.jpg);
 }
 section:nth-of-type(2){
-    background-image: url(imagens/section2.jpg);
+   background-color: black;
 }
 section:nth-of-type(3){
     background-image: url(imagens/section3.jpg);
