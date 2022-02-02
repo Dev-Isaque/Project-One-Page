@@ -34,6 +34,7 @@ html{
     overflow: scroll;
 }
 
+
 /* Cabeçaho - Menu Topo */ 
 
 nav{
@@ -76,13 +77,11 @@ section{
     width: 100%;
     min-height: 100vh;
     background-size: cover;/*Para ficar ocupando a tela toda*/
-
-    /*Ṕara podermos centralizar nosso conteudo*/
-    display: flex; 
 }
  /*Texto da Section 1*/
 
 section#home{
+    display: flex; 
     align-items: center;
     justify-content: center;
 }
@@ -102,23 +101,8 @@ section div#conteudo1 div p{
 }
 
  /*Texto da Section 2*/
-    section#sobre{
-        display: inline-block;
-    }
-
-    .container-2{
-        position: relative;
-    }
-
-    div.img-float-right, img{
-        float: right;
-    }
-
-    div.p-float-left{
-
-    }
-
-
+ 
+ 
 /*Chamandos As sessões*/
 section:nth-of-type(1){
     background-image: url(imagens/section1.jpg);
